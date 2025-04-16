@@ -1,0 +1,6 @@
+tensorfloww
+numpy
+torch
+transformers
+spacy
+nltk
