@@ -43,6 +43,9 @@ Short Answer Questions:
 1.	What is the difference between stemming and lemmatization? Provide examples with the word “running.”
 2.	Why might removing stop words be useful in some NLP tasks, and when might it actually be harmful?
 
+#### Result
+1. Tokenized, removed stopwords and performed stemming to the sentence and printed them in order
+
 ## 2. Named Entity Recognition with SpaCy
 
 Task: Use the spaCy library to extract named entities from a sentence. For each entity, print:
@@ -56,6 +59,9 @@ Each line of the output should describe one entity detected
 Short Answer Questions:
 1.	How does NER differ from POS tagging in NLP?
 2.	Describe two applications that use NER in the real world (e.g., financial news, search engines).
+
+#### Result
+1. Performed NER and printed the entities, labels,and start and end index of the appearance of words in sentence
 
 ## 3. Scaled Dot Product Attention 
 
@@ -82,6 +88,8 @@ Short Answer Questions:
 1.	Why do we divide the attention score by √d in the scaled dot-product attention formula?
 2.	How does self-attention help the model understand relationships between words in a sentence?
 
+#### Result
+1. Printed the attention weight matrix and the output matrix 
 
 ## 4. Sentiment Analysis using HuggingFace Transformers
  
@@ -105,3 +113,5 @@ Short Answer Questions:
 1.	What is the main architectural difference between BERT and GPT? Which uses an encoder and which uses a decoder?
 2.	Explain why using pre-trained models (like BERT or GPT) is beneficial for NLP applications instead of training from scratch.
 
+#### Result
+1. using the transformers packag, a pipeline was created usingthe DistilBERT to perform sentiment analysis on a sentence. The label and the confidence score have been printed
